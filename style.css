@@ -1,0 +1,85 @@
+@font-face{
+    font-family: IntroRustG-Base2Line;
+    src: url(font/IntroRustG-Base2Line.otf);
+};
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.img
+{
+    width: 1627px;
+    height: 500px;
+    background-image: url(img/photo_2018-10-31_11-56-34.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img h1
+{
+    font-family: Back_to_Black_Demo;
+    font-style: italic;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 186px; 
+    text-shadow: 3px 1px 1px #8A3063;
+}
+.more {
+    width: 291px;
+    height: 500px;
+    background: #8A3063;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+.more h1
+{
+    text-transform: uppercase;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-family: IntroRustG-Base2Line;
+    font-weight: 400;
+    
+}
+.more h1:hover
+{
+    text-shadow: 4px 4px 7px rgba(255,255,255,0.5);
+    transition: all 0.5s;
+}
+.more img
+{
+    width: 86px;
+    height: 86px;
+    margin: 30px 100px;
+}
+.label img
+{
+    position: absolute;
+    animation: bounceInLeft 1s linear 1s forwards;
+    
+}
+
+.ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
